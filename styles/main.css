@@ -18,4 +18,37 @@
     font-family: 'Spartan', sans-serif;
   
   }
+
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .menu {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 23px 70px;
+    margin-top: 36px;
+  }
+
+  .menu_items {
+    margin-left: 70px;
+  }  
+
+  .menu li {
+    display: inline-block;
+    padding: 0 15px;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--White);
+  }
+
+  
   
