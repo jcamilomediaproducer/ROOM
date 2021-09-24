@@ -50,5 +50,142 @@
     color: var(--White);
   }
 
+  .menu_items {
+    margin-left: 70px;
+  }  
+
+
+  .main_container {
+    display: flex;
+    width: 53%;
+    height: 491px;
+    background-image: url(/images/desktop-image-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
   
+  }
+
+  .discover {
+    display: flex;
+    width: 47%;
+    height: 491px;
+    background-color: var(--White);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .text_article{
+
+    margin-top: 70px;
+  padding-left: 15%;
+  padding-right: 10%;
+
+
+  }
+  .article_tittle{
+
+    font-size: 3em;
+  margin-bottom: 25px;
+  }
+
+  .article_p{
+
+    color: var(--DarkGray);
+  }
+
+  .next_page_arrow{
+    flex-basis: 55%;
+    display: flex;
+    letter-spacing: 10px;
+    font-weight: 600;
+    padding-left: 15%;
+    text-transform: uppercase;
+    margin-right: 25%;
+
+  }
+
+  
+   .next_page_arrow p {
+    color: var(--Black);
+
+
+   }
+
+   .left_right_buttom {
+
+  display: flex;
+  background-color: var(--Black);
+  justify-content: space-around;
+  width: 182px ;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  
+
+      
+ 
+  
+  
+   }
+
+   
+   .left_right_buttom .left_buttom {
+    float: left;
+  }
+
+  .left_right_buttom .left_buttom,
+.left_right_buttom .right_buttom {
+  background: black;
+  width: 85px;
+  height: 80px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+
+.left_right_buttom .left_buttom :focus,
+.left_right_buttom .right_buttom :focus {
+
+    outline: none;
+
+}
+
+.left_right_buttom .left_buttom :hover,
+.left_right_buttom .right_buttom :hover {
+
+    opacity: 0.7;
+
+}
+
+
+
+.forniture{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+
+  .module{
+    width: 33.3%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  
+
+  
+
+
+  
+
   
