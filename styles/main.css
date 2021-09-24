@@ -6,4 +6,16 @@
   }
 
 
+  :root {
+
+    --DarkGray: #a1a1a1;
+    --Black: #000000;
+    --White: #ffffff;
+    --VeryDarkGray: #454545;
+  }
+
+  body {
+    font-family: 'Spartan', sans-serif;
+  
+  }
   
